@@ -8,6 +8,8 @@ django = "*"
 dj-database-url = "*"
 django-rest-framework = "*"
 psycopg = {extras = ["binary", "pool"], version = "*"}
+django-taggit = "*"
+pyyaml = "*"
 
 [dev-packages]
 
