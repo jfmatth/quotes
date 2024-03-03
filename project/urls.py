@@ -43,10 +43,3 @@ if settings.DEBUG:
     urlpatterns += [path('admin/', admin.site.urls),]
 
 urlpatterns += router.urls
-
-# # FAVICON
-# from django.shortcuts import redirect
-
-# urlpatterns += [
-#     path('favicon.ico', lambda _ : redirect('static/icons/favicon.ico', permanent=True)),
-# ]
