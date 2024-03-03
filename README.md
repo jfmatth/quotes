@@ -15,9 +15,9 @@ Quotes I'm downloading and loading into my DB
 
 
 ## push to piku
-- add piku
-- setup DB
-- migrate
-- add superuser
-- add fixtures
-- test
+- [X] add piku
+- [X] setup DB
+- [X] migrate
+- [X] add superuser
+- [X] add fixtures
+- [X] test

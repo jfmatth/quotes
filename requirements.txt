@@ -1,0 +1,12 @@
+-i https://pypi.org/simple
+asgiref==3.7.2 ; python_version >= '3.7'
+dj-database-url==2.1.0
+django==5.0.2
+django-taggit==5.0.1
+psycopg[binary,pool]==3.1.18
+psycopg-binary==3.1.18
+psycopg-pool==3.2.1
+pyyaml==6.0.1
+sqlparse==0.4.4 ; python_version >= '3.5'
+typing-extensions==4.10.0 ; python_version >= '3.8'
+whitenoise==6.6.0
