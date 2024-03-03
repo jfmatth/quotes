@@ -26,5 +26,187 @@
   "fields": {
     "quote": "A lie gets halfway around the world before the truth has a chance to get its pants on."
   }
+},
+{
+  "model": "quotes.quote",
+  "pk": 5,
+  "fields": {
+    "quote": "We contend that for a nation to tax itself into prosperity is like a man standing in a bucket and trying to lift himself up by the handle."
+  }
+},
+{
+  "model": "quotes.quote",
+  "pk": 6,
+  "fields": {
+    "quote": "All the greatest things are simple, and many can be expressed in a single word: freedom; justice; honour; duty; mercy; hope."
+  }
+},
+{
+  "model": "quotes.quote",
+  "pk": 7,
+  "fields": {
+    "quote": "Continuous effort – not strength or intelligence – is the key to unlocking our potential."
+  }
+},
+{
+  "model": "quotes.quote",
+  "pk": 8,
+  "fields": {
+    "quote": "Courage is what it takes to stand up and speak, it’s also what it takes to sit down and listen."
+  }
+},
+{
+  "model": "quotes.quote",
+  "pk": 9,
+  "fields": {
+    "quote": "Everyone has his day, and some days last longer than others."
+  }
+},
+{
+  "model": "quotes.quote",
+  "pk": 10,
+  "fields": {
+    "quote": "History will be kind to me for I intend to write it."
+  }
+},
+{
+  "model": "quotes.quote",
+  "pk": 11,
+  "fields": {
+    "quote": "If we open a quarrel between the past and the present we shall find that we have lost the future."
+  }
+},
+{
+  "model": "quotes.quote",
+  "pk": 12,
+  "fields": {
+    "quote": "If you are going through hell, keep going."
+  }
+},
+{
+  "model": "quotes.quote",
+  "pk": 13,
+  "fields": {
+    "quote": "In the course of my life I have often had to eat my words, and I must confess that I have always found it a wholesome diet."
+  }
+},
+{
+  "model": "quotes.quote",
+  "pk": 14,
+  "fields": {
+    "quote": "It is a good thing for an uneducated man to read books of quotations."
+  }
+},
+{
+  "model": "quotes.quote",
+  "pk": 15,
+  "fields": {
+    "quote": "It’s not enough that we do our best; sometimes we have to do what’s required."
+  }
+},
+{
+  "model": "quotes.quote",
+  "pk": 16,
+  "fields": {
+    "quote": "Men occasionally stumble over the truth, but most of them pick themselves up and hurry off as if nothing has happened."
+  }
+},
+{
+  "model": "quotes.quote",
+  "pk": 17,
+  "fields": {
+    "quote": "Live simply, love generously, care deeply, speak kindly, leave the rest to God."
+  }
+},
+{
+  "model": "quotes.quote",
+  "pk": 18,
+  "fields": {
+    "quote": "There is no limit to the amount of good you can do if you don't care who gets the credit."
+  }
+},
+{
+  "model": "quotes.quote",
+  "pk": 19,
+  "fields": {
+    "quote": "Freedom is never more than one generation away from extinction. We didn't pass it to our children in the bloodstream. It must be fought for, protected, and handed on for them to do the same."
+  }
+},
+{
+  "model": "quotes.quote",
+  "pk": 20,
+  "fields": {
+    "quote": "Government is not a solution to our problem, government is the problem. ... Government does not solve problems; it subsidizes them. Government's view of the economy could be summed up in a few short phrases: If it moves, tax it. If it keeps moving, regulate it. If it stops moving, subsidize it. ... The problem is not that people are taxed too little, the problem is that government spends too much."
+  }
+},
+{
+  "model": "quotes.quote",
+  "pk": 21,
+  "fields": {
+    "quote": "If we ever forget that we are One Nation Under God, then we will be a nation gone under."
+  }
+},
+{
+  "model": "quotes.quote",
+  "pk": 22,
+  "fields": {
+    "quote": "Either you will control your government, or government will control you."
+  }
+},
+{
+  "model": "quotes.quote",
+  "pk": 23,
+  "fields": {
+    "quote": "The nine most terrifying words in the English language are \"I'm from the government, and I'm here to help.\""
+  }
+},
+{
+  "model": "quotes.quote",
+  "pk": 24,
+  "fields": {
+    "quote": "A nation that cannot control its borders is not a nation."
+  }
+},
+{
+  "model": "quotes.quote",
+  "pk": 25,
+  "fields": {
+    "quote": "We could say the government spend like drunken sailors, but that would be unfair to drunken sailors, because the sailors are spending their own money."
+  }
+},
+{
+  "model": "quotes.quote",
+  "pk": 26,
+  "fields": {
+    "quote": "I've noticed that everyone who is for abortion has already been born."
+  }
+},
+{
+  "model": "quotes.quote",
+  "pk": 27,
+  "fields": {
+    "quote": "Improving yourself is a lot more profitable than trying to improve others."
+  }
+},
+{
+  "model": "quotes.quote",
+  "pk": 28,
+  "fields": {
+    "quote": "Remember, today is the tomorrow you worried about yesterday."
+  }
+},
+{
+  "model": "quotes.quote",
+  "pk": 29,
+  "fields": {
+    "quote": "Our freedom can be measured by the number of things we can walk away from."
+  }
+},
+{
+  "model": "quotes.quote",
+  "pk": 30,
+  "fields": {
+    "quote": "A truly strong person does not need the approval of others any more than a lion needs the approval of sheep"
+  }
 }
 ]
