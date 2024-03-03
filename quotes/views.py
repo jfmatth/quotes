@@ -30,7 +30,7 @@ class GetRandomQuote(generic.DetailView):
     def get_object(self, queryset: QuerySet[Any] | None = ...) -> Model:
         # Eventually return a random object
 
-        x = randrange(Quote.objects.count())
+        x = randrange(Quote.objects.count())+1
         return Quote.objects.get(
             id = x
         )
