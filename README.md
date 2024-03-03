@@ -12,3 +12,12 @@ Quotes I'm downloading and loading into my DB
 - Mark Twain
 - Political pundits
 - Misc.
+
+
+## push to piku
+- add piku
+- setup DB
+- migrate
+- add superuser
+- add fixtures
+- test

@@ -1,0 +1,1 @@
+wsgi: project.wsgi:application
