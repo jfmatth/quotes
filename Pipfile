@@ -6,11 +6,9 @@ name = "pypi"
 [packages]
 django = "*"
 dj-database-url = "*"
-django-rest-framework = "*"
 psycopg = {extras = ["binary", "pool"], version = "*"}
 django-taggit = "*"
 pyyaml = "*"
-markdown = "*"
 whitenoise = "*"
 
 [dev-packages]
