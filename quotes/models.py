@@ -9,5 +9,5 @@ class Quote(models.Model):
     tags = TaggableManager()
     
     def __str__(self):
-        return f'{self.quote} - TAGS:{u", ".join(o.name for o in self.tags.all()) }'
+        return f'{self.quote} - {u", ".join(o.name for o in self.tags.all()) }'
 
