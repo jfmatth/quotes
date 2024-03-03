@@ -19,7 +19,7 @@ from django.urls import include, path
 from django.conf import settings
 
 urlpatterns = [
-    path('quote/', include("quotes.urls")), 
+    path('', include("quotes.urls")), 
 ]
 
 if settings.DEBUG:
