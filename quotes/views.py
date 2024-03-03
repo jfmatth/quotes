@@ -6,9 +6,9 @@ from django.db.models.query import QuerySet
 from django.views import generic
 
 from quotes.models import Quote
+from quotes.apps import QuotesConfig
 
-from random import randrange
-
+import random
 
 class GetQuoteID(generic.DetailView):
     model = Quote
@@ -19,9 +19,15 @@ class GetRandomQuote(generic.DetailView):
     template_name = "quotes/quote.html"
 
     def get_object(self, queryset: QuerySet[Any] | None = ...) -> Model:
-        # Eventually return a random object
+        # return a random quote
 
-        x = randrange(Quote.objects.count())+1
-        return Quote.objects.get(
-            id = x
-        )
+        n = random.choice(
+                Quote.objects.all().values('id')    
+            )["id"]
+        return Quote.objects.get(id=n)
+
+
+        # x = randrange(Quote.objects.count())+1
+        # return Quote.objects.get(
+        #     id = x
+        # )
