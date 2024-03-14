@@ -10,6 +10,10 @@ from quotes.apps import QuotesConfig
 
 import random
 
+import logging 
+
+logger = logging.getLogger(__name__)
+
 class GetQuoteID(generic.DetailView):
     model = Quote
     template_name = "quotes/quote.html"
@@ -21,9 +25,13 @@ class GetRandomQuote(generic.DetailView):
     def get_object(self, queryset: QuerySet[Any] | None = ...) -> Model:
         # return a random quote
 
+        logger.info(f'Getting random quote')
+
         n = random.choice(
                 Quote.objects.all().values('id')    
             )["id"]
+        
+        logger.info(f'returning object {n} from DB')
         return Quote.objects.get(id=n)
 
 
