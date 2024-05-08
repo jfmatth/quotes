@@ -10,6 +10,7 @@ psycopg = {extras = ["binary", "pool"], version = "*"}
 django-taggit = "*"
 pyyaml = "*"
 whitenoise = "*"
+gunicorn = "*"
 
 [dev-packages]
 
