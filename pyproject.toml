@@ -15,5 +15,6 @@ dependencies = [
     "pyyaml==6.0.1",
     "sqlparse==0.4.4 ; python_full_version >= '3.5'",
     "typing-extensions==4.10.0 ; python_full_version >= '3.8'",
+    "waitress>=3.0.2",
     "whitenoise==6.6.0",
 ]
